@@ -73,7 +73,7 @@
         }
     #vid1{
         height: 300px;
-        width: 40%;
+        width: 30%;
     }
     .image::after{
         display: block;
