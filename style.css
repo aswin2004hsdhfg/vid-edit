@@ -1,230 +1,619 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-     <script src="index.js"></script>
-</head>
-<body>
-    <div class="scrolledBG">
-    
-    <header class="header" >
-        <a href="#" class="logo" ><img src="imges/Untitled39_20240416201017.png" height="27px"><h1>Aswin.</h1></a>
-        <nav class="navbar">
-            <a href="#home" class="header__link"><img src="imges/icons8-home-48.png" height="20px" class="img-front" id="img-front"><img src="imges/icons8-home-48 (1).png" height="20px" class="back-img" id="back-img1"></a>
-            <a href="#about" class="header__link"><img src="imges/icons8-user-24.png" height="20px" class="img-front" id="img-front"><img src="imges/icons8-user-24(1).png" height="20px" class="back-img"  id="back-img2"></a>
-            <a href="#videos" class="header__link"><img src="imges/icons8-video-24.png" height="20px" class="img-front" id="img-front"><img src="imges/icons8-video-24 (1).png" height="20px" class="back-img"  id="back-img3"></a>
-            <a href="#"  class="header__link"><img src="imges/icons8-contact-30.png" height="20px" class="img-front" id="img-front"><img src="imges/icons8-contact-30 (1).png" height="20px" class="back-img"  id="back-img4"></a>
-        </nav>
-       
-    </header> 
-    <div class="pop-info">
-            <a class="home1" id="info"></a>
-            <a class="about1"  ></a>
-            <a class="videos1"></a>
-            <a class="contact1"></a>
-        </div>
-    <section class="home" >
-        <div>
-        <div class="image" id="image"><img src="imges/unamed.png"></div>
-      </div> 
-      <div>
-      <div class="home-content" id="home">
-            <h1 >Hi, I'm Aswin M S</h1>
-            <h3>Video Editor</h3>
-            <p>"Let's collaborate to elevate your projects and make your vision a reality. Contact me today to explore how I can enhance your storytelling through the power of video editing."
-            </p>
-            <div class="btn-box">
-                <a href="#" >Hire Me</a>
-                <a href="#">Let's Talk
-                </a>
-            </div>
-            </div>
-        </div> 
-
-    </section>
-    
-    <section class="about reveal" id="about">
-        <!--  <div class="card" style="--clr:rgb(0, 81, 255);"></div>-->
-        <div class="icon" id="icon"><img src="imges/Untitled39_20240417105613.png"></div><div>
-
-        <div class="about-content " data-background="#3498db">
-            <h1>Hello, I'm Aswin M S</h1>
-            <p>
-
-                Hi! I'm Aswin MS, a passionate 19-year-old professional video editor hailing from the beautiful state of Kerala, India. With a keen eye for detail and a knack for storytelling, I specialize in crafting compelling long-form and short-form video content that captivates audiences worldwide.<br><br>
-                
-                Having immersed myself in the art of video editing from a young age, I bring a unique blend of creativity and technical expertise to every project I undertake. Whether it's weaving together a narrative in a feature-length film or distilling the essence of a story into a snappy social media clip, I pride myself on delivering results that exceed expectations.<br><br>
-                
-                My proficiency extends to a variety of editing tools, and I am proud to say that I am an expert in DaVinci Resolve, harnessing its powerful features to bring out the best in every frame. From color grading to audio mastering, I leverage the full potential of this industry-standard software to elevate your projects to new heights.<br><br>
-                
-                My journey in the world of video editing has been nothing short of exhilarating. From honing my skills on editing software to staying updated with the latest industry trends, I am constantly pushing the boundaries of what's possible in visual storytelling.<br><br>
-                
-                Beyond mere technical proficiency, I believe in the power of collaboration and communication. Understanding the vision of my clients and translating it into reality is at the core of my work ethic. Every project is an opportunity to forge meaningful connections and bring ideas to life through the medium of video.<br><br>
-                
-                Whether you're a filmmaker, content creator, or business looking to make an impact in the digital realm, I'm here to turn your vision into reality. Let's embark on a journey together and create something truly unforgettable.<br><br>
-                
-                Get in touch today, and let's bring your story to life through the magic of video editing!</p>
-    </div>
-            </section>
-        
-    <section class="videos" id="videos">
-       
-        <div class="videos-content">  
-             <h1 id="content-size" class=" reveal">SHORT FORM CONTENT</h1>
-            <div class="short-form">
-                <div class="vid1 reveal" id="vid" ><iframe width="100%" height="100%" src="https://www.youtube.com/embed/ju2m8Gb6cN4" title="LeBron jxcxshvs Edit - My Eyes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                <div class="vid2 reveal" id="vid"><iframe width="100%"  height="100%" src="https://www.youtube.com/embed/ju2m8Gb6cN4" title="LeBron James Edit - My Eyes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                <div class="vid3 reveal" id="vid"><iframe width="100%"  height="100%" src="https://www.youtube.com/embed/GCGFHCVAhng" title="aman lata style vid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                <div class="vid4 reveal" id="vid"><iframe width="100%"  height="100%" src="https://www.youtube.com/embed/cDXaDrC9fC4" title="BYMAXIMISE INSPIRED EDIT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-              </div>  
-              <h1 id="content-size" class=" reveal">LONG FORM CONTENT</h1>
-              <div class="long-form">
-                <div class="vid5 reveal" id="vid1"><iframe width="100%" src="https://www.youtube.com/embed/iuhJs3u1gZY" title="portfolio made of Akshath" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                <div class="vid6 reveal" id="vid1"><iframe width="100%" src="https://www.youtube.com/embed/ewRWhS5k9qg" title="portfolio made for shaun lee (can you please provide me you email address or read description)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                <div class="vid7 reveal" id="vid1"><iframe width="100%" src="https://www.youtube.com/embed/ewRWhS5k9qg" title="portfolio made for shaun lee (can you please provide me you email address or read description)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                <div class="vid8 reveal" id="vid1"><iframe width="100%" src="https://www.youtube.com/embed/ewRWhS5k9qg" title="portfolio made for shaun lee (can you please provide me you email address or read description)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            </div></div>
-     
-    </section>
-
-    <footer>
-        <div class="footer" ></div>
-    </footer>
-   </div>
-    <script src="index.js"></script> 
-    <script>
-        
-    let image = document.getElementById('image');
-        let home = document.getElementById('home');
- 
-window.addEventListener('scroll',function(){
-   let value = window.scrollY;
-    home.style.right = value *3.25+ 'px'; 
-    image.style.left = value *3.25 +'px';
-})
-let camera = document.getElementById('icon');
- 
-window.addEventListener('scroll',function(){
-   let value = window.scrollY;
-   camera.style.bottom = value*1-700+'px';
-})
 
 
-window.addEventListener('scroll',reveal);
-function reveal(){
-     var reveals =  document.querySelectorAll('.reveal');
+@media (max-width: 900px) {
 
-     for(var i = 0 ;i< reveals.length; i++){
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 150;
-
-
-        if(revealtop < windowheight - revealpoint){
-            reveals[i].classList.add('active');
-        }
-        else{
-            reveals[i].classList.remove('active');
-        }
-     }
-}
-  /* let cards = document.querySelectorAll('.card');
-   cards.forEach(card =>{
-    card.onmousemove = function(e){
-        let x = e.pageX - card.offsetleft; 
-        let y = e.pageY - card.offsettop; 
-
-        card.style.setProperty('--x' , x + 'px');
-        card.style.setProperty('--y' , y + 'px');
+    .short-form{
+        height: 1200px;
     }
-   })*/
+    
+    .logo h1{
+    display: none;
+    }
+    .logo{
+        right: 0px;
+    }
+    #vid1{
+        height: 300px;
+        width: 600px;
+    }
    
-  const nav = document.querySelector(".header");
-  let lastScrollY = window.scrollY;
-
-  window.addEventListener("scroll", () => {
-    if (lastScrollY < window.scrollY) {
-      nav.classList.add("header--hidden");
-    } else {
-      nav.classList.remove("header--hidden");
+       
+    .image::after{
+        display: none;
     }
-
-    lastScrollY = window.scrollY;
-  });
-
-  window.addEventListener('scroll', function() {
-    var element = document.querySelector('.scrolledBG');
-    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    
-    if (scrollPercentage > 0.1 && scrollPercentage < 0.29) {
-        element.style.backgroundColor = 'rgb(50, 1, 158)'; 
-    } 
-    else {
-        element.style.backgroundColor = ' rgb(255, 174, 0)'; 
+    .icon img{
+        display: none;
     }
-});
-
-
-/*nav light mode---------------------------------------------*/
-
-window.addEventListener('scroll', function() {
-    var element = document.querySelector('#back-img1');
-    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    
-    if (scrollPercentage > 0.1 && scrollPercentage < 0.4) {
-        element.style.opacity =1;
-    } 
-    
-    else {
-        element.style.opacity = 0;  
+    .image img{
+        display: none;
     }
-});
+    .home-content{
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        right: 0px;
 
-window.addEventListener('scroll', function() {
-    var element = document.querySelector('#back-img2');
-    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    
-    if (scrollPercentage > 0.1 && scrollPercentage < 0.4) {
-        element.style.opacity =1;
-    } 
-    
-    else {
-        element.style.opacity = 0;  
+       
     }
-});
-
-window.addEventListener('scroll', function() {
-    var element = document.querySelector('#back-img3');
-    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    
-    if (scrollPercentage > 0.1 && scrollPercentage < 0.4) {
-        element.style.opacity =1;
-    } 
-    
-    else {
-        element.style.opacity = 0;  
+    .home-content h1{
+        font-size: 35px;
     }
-});
-
-window.addEventListener('scroll', function() {
-    var element = document.querySelector('#back-img4');
-    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    
-    if (scrollPercentage > 0.1 && scrollPercentage <0.4) {
-        element.style.opacity =1;
-    } 
-    
-    else {
-        element.style.opacity = 0;  
+    .home-content h3{
+        font-size: 25px;
     }
-});
+    .home-content p{
+          margin: 20px 25px 40px;
+          padding-left: 20px;
+    }
+    .header{
+        padding: 20px 4%;
+    }
+    
+   }
+   @media (max-width: 700px) {
+   
+    .home-content .btn-box{
+        margin: auto;
+    }
+    .short-form{
+        height: 2100px;
+    }
+    
+}
+
+   @media (max-width: 1350px) {
+   #vid{
+    height: 480px;
+    width: 260px;
+
+   }
+   .long-form{
+    height: 1500px;
+}
+.image img{
+    position: relative;
+    height:500px;
+  
+}
+
+  
+}
+
+@media (min-width: 1350px) {
+   
+    #vid{
+     height: 540px;
+     width: auto;
+    }
+    .long-form{
+        height: 800px;
+    }
+    
+    .image img{
+        position: relative;
+        height:600px;
+      
+    }
+    
+ }
+   
+   @media (min-width: 900px) {
+
+    .home-content h3{
+        font-size: 32px;
+    }
+    .short-form{
+        height: 1000px;
+    }
+    
+    .logo{
+        right: 70px;
+    }
+    .logo h1{
+        display: block;
+        }
+    #vid1{
+        height: 300px;
+        width: 600px;
+    }
+    .image::after{
+        display: block;
+    }
+    .header{
+        padding: 20px 10%;
+    }
+    
+    .home-content{
+        margin-right: 45%;
+        width: 50%;
+       
+    }
+    .home-content h1{
+        font-size: 40px;
+    }
+    .home-content p{
+         margin: 20px 0px 40px;
+    }
+   
+   }
+ 
+
+   
+*{  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+   
+}
+body{
+    --header-height: 50px;
+    padding-top: var(--header-height);
+    background-color: rgb(255, 174, 0);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.scrolledBG{
+    height:auto;
+    transition:0.6s all ease;
+  }
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background: transparent ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.5s;
+    overflow: hidden;
+    backdrop-filter: blur(50px);
+    
+}
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+.logo h1{
+    font-size: 30px;
+}
+.logo:hover{
+text-shadow: 0px 0px 10px  white;
+color: aliceblue;
+transition: 0.3s;
+}
+.logo img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: .4s;
+}
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: .4s;
+}
+
+.navbar a {
+font-size: 18px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: .3s;
+}
+
+.img-front{
+    position: absolute;
+}
+.back-img{
+    transition: 1s all ease;
+    position: absolute;
+    opacity: 0%;
+}
+.back-img:hover{
+    opacity: 100%;
+    transition: 0.35s ease-in-out
+}
+.header--hidden {
+    transform: translateY(calc(-1 * var(--header-height)));
+    box-shadow: none;
+  }
+  
+  .header__link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+  }
+
+  .pop-info{
+    position: absolute;
+    height: 100px;
+    width: auto;
+  }
+  #info{
+    position: relative;
+    height: 20px;
+    width: 40px;
+    background: #ffffff;
+  }
+  
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: aliceblue;
+}
+.home-content{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+   
+
+   
+}
+.home-content h1{
+    text-shadow: 4px 2px 0px  rgb(255, 255, 255);
+    position: relative;
+   color: rgb(26, 0, 46);
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: 1s;
+}
+
+.home-content h3{
+    text-shadow: 4px 2px 0px  rgb(26, 0, 46);
+    position: relative;
+   
+    font-weight: 700;
+    color: rgb(250, 255, 179);
+}
+.home-content h3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: 1.3s;
+}
+.home-content p{
+    position: relative;
+    color: rgb(26, 0, 46);
+    font-size: 16px;
+   
+}
+.home-content p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: 1.5s;
+}
+.home-content .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+.home-content .btn-box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: 1.9s;
+    z-index: 2;
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border:  2px solid;
+    border-color: rgb(26, 0, 46);
+    border-radius: 8px;
+    color:rgb(26, 0, 46);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 19px;
+    overflow: hidden;
+    z-index: 2;
+
+}
+.btn-box a:nth-child(2) {
+ background: transparent;
+ color: rgb(26, 0, 46);
+}
+.btn-box a:nth-child(2):hover{
+    color: rgb(255, 255, 255);
+    border-color:rgb(26, 0, 46);
+}
+.btn-box a:nth-child(1):hover{
+    color: rgb(255, 255, 255);
+    border-color:rgb(26, 0, 46);
+}
+.btn-box a:nth-child(2)::before{
+    background: rgb(26, 0, 46);
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0;
+    height: 100%;
+    background: rgb(26, 0, 46);
+    z-index: -1;
+    transition: .5s;
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+
+#image{
+    display: flex;
+    position: absolute;
+    height:auto;
+    width: auto;
+    top: 10%;
+    margin-left: 55%;
+}
+.image img{
+    position: relative;
+  
+}
+.image::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:150%;
+    height: 100%;
+    background: rgb(243, 174, 0);
+    animation: showRight 1s ease forwards ;
+    animation-delay: 2.5s;
+    z-index: 2;
+}
+.image img:hover{
+    opacity: 70%;
+    transition: 0.5s;
+}
 
 
-    </script>
+/*animations*/
+@keyframes showRight{
+    100%{
+        width:0;
+    }
+}
 
 
-</body>
-</html>
+/*about-sections ----------------*/
+
+#about{ 
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -37px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+    background: linear-gradient(rgb(24, 0, 75),rgb(0, 3, 35));
+    box-shadow: 0px 1px 30px black;
+    z-index: 3;
+    overflow: hidden;
+  
+}
+/*#about .card{
+    position: relative;
+    width: 320;
+    height: 400px;
+    background: rgba(45,45,451);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#about .card::before{
+    content: '';
+    top: var(--y );
+    left: var(--x );
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: radial-gradient(var(--clr),transparent,transparent);
+    width: 400px;
+    height: 400px;
+     
+}*/
+.about-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left:7%;
+    margin-right:7%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    
+}
+.about-content p{
+    background: -webkit-linear-gradient(#ff0095, #009dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.about-content h1{
+font-size: 200%;
+color: rgb(255, 0, 102);
+margin: 3%;
+}
+.icon{
+    position: absolute;
+    overflow: hidden;
+    height: 150%;
+    width: 100%;
+    opacity: 20%;
+    left: 20%;
+}
+.icon img{
+    
+    height: 100%;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#content-size{
+    color: rgb(26, 0, 46);
+    text-shadow: 4px 2px 0px  rgb(255, 255, 255);
+    align-content: center;
+    font-size: 100%;
+}
+.videos-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 40px;
+   
+}
+
+#vid{
+    
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px 0px rgb(81, 62, 0);
+}
+#vid1{
+    display: flex;
+    justify-content: center;
+   
+    border-radius: 8px;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    box-shadow: 10px 10px 20px 0px rgb(81, 62, 0);
+}
+.long-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    width: 100%; 
+    overflow: hidden;
+    font-size: 40px;
+}
+.short-form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    font-size: 40px;
+}
+
+#vid:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
+#vid1:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
+
+
+
+/*footer---------*/
+
+.footer{
+    margin-top: 10%;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(26, 0, 46);
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1 ;
+}
